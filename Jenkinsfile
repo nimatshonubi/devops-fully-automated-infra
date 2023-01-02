@@ -49,9 +49,7 @@ pipeline {
             }
         }
         
-        
-        
-        
+                
         stage('Checkov scan') {
             steps {
                 
