@@ -15,7 +15,7 @@ pipeline {
             }
         }
         
-         stage('Verify Terraform Version') {
+        stage('Verify Terraform Version') {
             steps {
                 echo 'verifying the terrform version...'
                 sh 'terraform --version'
